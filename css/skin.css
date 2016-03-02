@@ -31,7 +31,18 @@ Copyright: ThemeMountain
 23. Resolution Media Queries
 
 -------------------------------------------------------------------*/
-
+.load-screen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #fff;
+}
+.load-screen .tm-loader #circle{
+    border: 3px solid rgba(0,0,0,0.5);
+}
 /*------------------------------------------------------------------
 [1. Typography]
 */
@@ -45,7 +56,7 @@ Copyright: ThemeMountain
 body{
 	letter-spacing: 0;
 	font-weight: 400;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 1.8;
 	color: #666;
 }

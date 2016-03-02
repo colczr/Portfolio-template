@@ -4,7 +4,7 @@
 	<meta charset="UTF-8" />
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
 	<title>Colin Chen</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
 	<!-- Font -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700,800' rel='stylesheet' type='text/css'>
@@ -13,14 +13,23 @@
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin.css" />
+	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-73154932-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 </head>
 <body class="home-page">
-
+	
 	<!-- Overlay Navigation Menu -->
 	<div class="overlay-navigation-wrapper">
 		<div class="overlay-navigation-inner">
@@ -45,48 +54,12 @@
 								<a href="about.html">About</a>
 							</li>
 							<li>
-								<a href="portfolio.html">Folio</a>
+								<a href="portfolio.html">Portfolio</a>
 							</li>
 							<li>
 								<a href="contact.html">Contact</a>
 							</li>
-							<li>
-								<a href="#" class="contains-sub-menu">More</a>
-								<ul class="sub-menu">
-									<li>
-										<a href="shortcode-overview.html">Shortcode Overview</a>
-									</li>
-									<li>
-										<a href="404.html">400 Not Found</a>
-									</li>
-									<li>
-										<a href="500.html">500 Error</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-					<nav class="overlay-navigation pull-left clear-float-on-mobile hide-on-mobile">
-						<span class="menu-title">Projects</span>
-						<ul>
-							<li>
-								<a href="portfolio/distillery.html">Distillery</a>
-							</li>
-							<li>
-								<a href="portfolio/packaging.html">The Coffee Shop</a>
-							</li>
-							<li>
-								<a href="portfolio/barber-shop.html">Rockabilly Barber</a>
-							</li>
-							<li>
-								<a href="portfolio/clothing.html">Montreal Clothing</a>
-							</li>
-							<li>
-								<a href="portfolio/mobile-app.html">Macaw iOS App</a>
-							</li>
-							<li>
-								<a href="portfolio/restaurant.html">The Cantina</a>
-							</li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -101,6 +74,11 @@
 	<!-- Overlay Navigation Menu End -->
 
 	<div class="wrapper">
+				<!-- load screen -->
+		<div class="load-screen">
+		    <div class="tm-loader"><div id="circle"></div></div>
+		</div>
+		<!-- load screen end -->
 		<div class="wrapper-inner">
 
 			<!-- Header -->
@@ -127,8 +105,8 @@
 									<li>
 										<a href="about.html">About</a>
 									</li>
-									<li class="contains-mega-sub-menu">
-										<a href="portfolio.html">Folio</a>
+									<li>
+										<a href="portfolio.html">Portfolio</a>
 									</li>
 									<li>
 										<a href="blog.html">Blog</a>
@@ -136,20 +114,7 @@
 									<li>
 										<a href="contact.html">Contact</a>
 									</li>
-									<li>
-										<a href="shortcode-overview.html">More</a>
-										<ul class="sub-menu">
-											<li>
-												<a href="shortcode-overview.html">Shortcode Overview</a>
-											</li>
-											<li>
-												<a href="404.html">400 Not Found</a>
-											</li>
-											<li>
-												<a href="500.html">500 Error</a>
-											</li>
-										</ul>
-									</li>
+									
 								</ul>
 							</nav>
 						</div>
@@ -200,81 +165,7 @@
 								</div>
 								<img data-src="images/slider/slide-20-fs.jpg" data-retina src="images/blank.png" alt=""/>
 							</li>
-							<li class="tms-slide" data-video data-video-bkg>
-								<div class="tms-content">
-									<div class="tms-content-inner">
-										<div class="row">
-											<div class="column width-12 center">
-												<div class="clear"></div>
-												<h1 class="tms-caption title-xlarge color-white lspacing-medium"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:200ms;easing:easeFastSlow;"
-												>
-													Macaw App
-												</h1>
-												<div class="clear"></div>
-												<a href="portfolio/mobile-app.html" class="tms-caption button text-uppercase lspacing-medium weight-bold bkg-black color-white bkg-hover-pink color-hover-white fade-location"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:400ms;easing:easeFastSlow;"
-													data-offsety="60"
-												>
-													View Project
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<video poster="images/blank.png">
-									<source type="video/mp4" src="images/slider/bkg-video.mp4" />
-									<source type="video/webm" src="images/slider/bkg-video.webm" />
-									<source type="video/ogg" src="images/slider/bkg-video.ogg" />
-								</video>
-								<img data-src="images/slider/bkg-video-poster.jpg" data-retina src="images/blank.png" alt=""/>
-							</li>
-							<li class="tms-slide" data-image data-force-fit>
-								<div class="tms-content">
-									<div class="tms-content-inner">
-										<div class="row">
-											<div class="column width-12 center">
-												<h1 class="tms-caption title-xlarge color-white lspacing-medium"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:200ms;easing:easeFastSlow;"
-												>
-													8ThreeFifty
-												</h1>
-												<div class="clear"></div>
-												<a href="portfolio/distillery.html" class="tms-caption button text-uppercase lspacing-medium weight-bold bkg-black color-white bkg-hover-pink color-hover-white fade-location"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:400ms;easing:easeFastSlow;"
-													data-offsety="60"
-												>
-													View Project
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<img data-src="images/slider/slide-2-fs.jpg" data-retina src="images/blank.png" alt=""/>
-							</li>
-							<li class="tms-slide" data-image data-force-fit>
-								<div class="tms-content">
-									<div class="tms-content-inner">
-										<div class="row">
-											<div class="column width-12 center">
-												<h1 class="tms-caption title-xlarge color-white lspacing-medium"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:200ms;easing:easeFastSlow;"
-												>
-													Montreal
-												</h1>
-												<div class="clear"></div>
-												<a href="portfolio/clothing.html" class="tms-caption button text-uppercase lspacing-medium weight-bold bkg-black color-white bkg-hover-pink color-hover-white fade-location"
-													data-animate-in="opacity:0;transY:150;duration:600ms;delay:400ms;easing:easeFastSlow;"
-													data-offsety="60"
-												>
-													View Project
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<img data-src="images/slider/slide-1-fs.jpg" data-retina src="images/blank.png" alt=""/>
-							</li>
+							
 						</ul>
 					</div>
 				</section>
@@ -285,7 +176,7 @@
 					<div class="row">
 						<div class="column width-8 offset-2 center horizon" data-animate-in="opacity:0;transY:50;duration:1000;easing:easeFastSlow;" data-threshold="0.5">
 							<p class="lead text-medium weight-light color-charcoal text-line-vertical">I believe in using creativity and simplicity to create maximum experience for the users.
-								<br><br><button onclick="window.open('resume.pdf');" class="border-black bkg-hover-grey border-hover-white color-white color-hover-grey">
+								<br><br><button onclick="window.open('Chen_Resume.pdf');" class="border-black bkg-hover-grey border-hover-white color-white color-hover-grey">
 									View Resume
 								</button></p>
 						</div>
@@ -312,14 +203,15 @@
 					<div class="row">
 						<div class="column width-12">
 							<div id="grid-1" class="row content-grid-3 masonry-grid fade-in-progressively">
-								<div class="grid-item grid-sizer design graphic frontend">
+								
+								<div class="grid-item ux">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-										<a class="overlay-link" href="portfolio/clothing.html">
-											<img src="images/portfolio/grid/large-margins/creative.png" alt=""/>
+										<a class="overlay-link" href="portfolio/pixup.html">
+											<img src="images/portfolio/grid/large-margins/pixup.png" alt="pixup"/>
 											<span class="overlay-info">
 												<span>
 													<span>
-														<span class="project-title"><span>Creative Portfolio</span></span>
+														<span class="project-title"><span>PixUp</span><br><br>UX Design</span>
 													</span>
 												</span>
 											</span>
@@ -328,12 +220,26 @@
 								</div>
 								<div class="grid-item ux">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-										<a class="overlay-link" href="portfolio/barber-shop.html">
-											<img src="images/portfolio/grid/large-margins/pixup.png" alt="pixup"/>
+										<a class="overlay-link" href="portfolio/postitplus.html">
+											<img src="images/portfolio/grid/large-margins/postitplus.png" alt="pixup"/>
 											<span class="overlay-info">
 												<span>
 													<span>
-														<span class="project-title"><span>PixUp</span><br><br>Mobile App Design</span>
+														<span class="project-title"><span>Post-it Plus</span><br><br>UX Research</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item grid-sizer design graphic frontend">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<a class="overlay-link no-page-fade" href="creative/" target="_blank">
+											<img src="images/portfolio/grid/large-margins/creative.png" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title"><span>Creative Portfolio</span><br><br>My Old Portoflio</span>
 													</span>
 												</span>
 											</span>
@@ -342,12 +248,12 @@
 								</div>
 								<div class="grid-item frontend">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-										<a class="overlay-link" href="portfolio/restaurant.html">
+										<a class="overlay-link no-page-fade" href="opis/" target="_blank">
 											<img src="images/portfolio/grid/large-margins/opis.png" alt=""/>
 											<span class="overlay-info">
 												<span>
 													<span>
-														<span class="project-title"><span>Opis</span><br><br>PHP/MySQL <br>Front End/Backend Engineering</span>
+														<span class="project-title"><span>Opis</span><br><br>PHP/MySQL <br>Front End/Backend</span>
 													</span>
 												</span>
 											</span>
@@ -356,20 +262,33 @@
 								</div>
 								<div class="grid-item ux">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-										<a class="overlay-link" href="portfolio/restaurant.html">
+										<a class="overlay-link" href="portfolio/mend.html">
 											<img src="images/portfolio/grid/large-margins/mend.png" alt=""/>
 											<span class="overlay-info">
 												<span>
 													<span>
-														<span class="project-title"><span>Mend</span><br><br>Mobile App Design</span>
+														<span class="project-title"><span>Mend</span><br><br>UX Design</span>
 													</span>
 												</span>
 											</span>
 										</a>
 									</div>
 								</div>
-								
-								<div class="grid-item graphic">
+								<div class="grid-item ux">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
+										<a class="overlay-link" href="portfolio/activair.html">
+											<img src="images/portfolio/grid/large-margins/activair.png" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title"><span>Activair</span><br><br>UX design</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<!-- <div class="grid-item graphic" style="display:none;">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
 										<a class="overlay-link" href="portfolio/packaging.html">
 											<img src="images/portfolio/grid/large-margins/graphic.png" alt=""/>
@@ -382,16 +301,16 @@
 											</span>
 										</a>
 									</div>
-								</div>
+								</div> -->
 								
 								<div class="grid-item ux">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-										<a class="overlay-link" href="portfolio/packaging.html">
+										<a class="overlay-link" href="portfolio/sp3.html">
 											<img src="images/portfolio/grid/large-margins/sp3.png" alt=""/>
 											<span class="overlay-info">
 												<span>
 													<span>
-														<span class="project-title"><span>SP3</span><br><br>Web App Redesign</span>
+														<span class="project-title"><span>SP3</span><br><br>UX Design</span>
 													</span>
 												</span>
 											</span>
@@ -420,11 +339,11 @@
 								<div class="grid-item">
 									<div class="widget">
 										<h4>Contact</h4>
-										<p>colczr@gmail.com <br>206-307-1269</p>
+										<p>cchent@umich.edu <br>206-307-1269</p>
 
 										<ul class="social-list list-horizontal pull-left clear-float-on-mobile left">
-											<li><a href="https://www.linkedin.com/in/colintychen"><span class="icon-linkedin small"></span></a></li>
-											<li><a href="https://github.com/colczr"><span class="icon-github small"></span></a></li>
+											<li><a href="https://www.linkedin.com/in/colintychen" target="_blank"><span class="icon-linkedin small"></span></a></li>
+											<li><a href="https://github.com/colczr" target="_blank"><span class="icon-github small"></span></a></li>
 										</ul>
 									</div>
 								</div>
@@ -447,5 +366,12 @@
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
+	<script>
+    $( window ).on( 'load', function(){
+        $( '.load-screen' ).fadeOut( 'fast', function(){
+            $( this ).remove();
+        });
+    });
+</script>
 </body>
 </html>
